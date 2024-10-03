@@ -1,0 +1,8 @@
+<h2>Add/Edit Employee</h2>
+<form (ngSubmit)="saveEmployee()">
+    <label>Name: <input [(ngModel)]="employee.name" name="name"></label>
+    <label>Job Title: <input [(ngModel)]="employee.jobTitle" name="jobtitle"></label>
+    <label>Department: <input [(ngModel)]="employee.department" name="department"></label>
+    <label>Contact: <input [(ngModel)]="employee.contact" name="contact"></label>
+    <button type="submit">Save</button>
+</form>
